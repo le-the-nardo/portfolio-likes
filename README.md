@@ -13,15 +13,19 @@ Ferramentas que utilizei para implementação e teste da API:
 
 ## Requisições suportadas pela API
 
-- **`GET /repositories`: Rota que lista todos os repositórios;
+- `GET /repositories`: Rota que lista todos os repositórios;
 
-- **`Post /repositories`: Rota que recebe um  `title`, `url` e `techs` no corpo da requisição;
 
-- **`Put /repositories/:id`: Essa rota altera apenas o `title`, `url` e as `techs` do repositório que possua o `id` igual ao `id` passado pelo parâmetro da rota;
+- `Post /repositories`: Rota que recebe um  "title", "url" e "techs" no corpo da requisição;
 
-- **`Delete /repositories/:id`: A rota deve deleta o repositório com o `id` presente nos parâmetros da rota;
 
-- **`Post /repositories/:id/like`: A rota aumenta o número de likes do repositório específico escolhido através do `id` presente nos parâmetros da rota, a cada chamada dessa rota, o número de likes é aumentado em 1;
+- `Put /repositories/:id`: Essa rota altera apenas o "title", "url" e as "techs" do repositório que possua o "id" igual ao "id" passado pelo parâmetro da rota;
+
+
+- `Delete /repositories/:id`: A rota deve deleta o repositório com o "id" presente nos parâmetros da rota;
+
+
+- `Post /repositories/:id/like`: A rota aumenta o número de likes do repositório específico escolhido através do "id" presente nos parâmetros da rota, a cada chamada dessa rota, o número de likes é aumentado em 1;
 
 
 ## Autor 👦🏻
